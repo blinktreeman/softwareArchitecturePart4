@@ -49,4 +49,12 @@ public class App {
 
     }
 }
+
+/*
+Output:
+Ivanov wants to get on the bus
+Please, come in
+Petrov wants to get on the bus
+Your ticket is not valid
+ */
 ```
