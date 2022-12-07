@@ -20,6 +20,10 @@ public class TicketProvider {
     }
 
     public Map<UUID, Ticket> getTickets(UUID customerId) {
+        // Предусловие
+        if (customerId == null) {
+            throw new RuntimeException("Invalid customer Id");
+        }
         return database.getTicketMap()
                 .entrySet()
                 .stream()
