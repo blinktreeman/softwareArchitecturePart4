@@ -1,9 +1,5 @@
 # softwareArchitecturePart4
 
-## Диаграмма компонентов
+## Диаграмма классов
 
-![Диаграмма](src/main/java/ticketservice/ticketServiceDiagram.png)
-
-## Описание решения
-
-Выполнены три базовых класса Customer, Ticket, Order
+![Диаграмма](src/main/java/ticketservice/UMLDiagram.png)
