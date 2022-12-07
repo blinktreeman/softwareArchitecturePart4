@@ -1,6 +1,5 @@
 package ticketservice;
 
-import java.awt.image.BufferedImage;
 import java.util.Map;
 import java.util.UUID;
 

@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f4b286d-c182-4e79-8a11-2c68a43cd775" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/BusStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/CustomerCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/CustomerProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/MobileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/PaymentProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/TicketProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/ticketServiceDiagram.png" afterDir="false" />
+    <list default="true" id="9f4b286d-c182-4e79-8a11-2c68a43cd775" name="Changes" comment="task done">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ticketservice/UMLDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticketservice/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ticketservice/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticketservice/MobileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ticketservice/MobileApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticketservice/ticketServiceDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ticketservice/ticketServiceDiagram.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +73,16 @@
       <updated>1670255195178</updated>
       <workItem from="1670255196779" duration="3411000" />
       <workItem from="1670308292357" duration="27687000" />
-      <workItem from="1670394162052" duration="5739000" />
+      <workItem from="1670394162052" duration="9683000" />
     </task>
+    <task id="LOCAL-00001" summary="task done">
+      <created>1670400986515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670400986515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task done" />
+    <option name="LAST_COMMIT_MESSAGE" value="task done" />
   </component>
 </project>
