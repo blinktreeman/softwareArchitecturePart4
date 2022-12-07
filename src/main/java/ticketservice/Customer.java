@@ -1,7 +1,5 @@
 package ticketservice;
 
-import java.util.UUID;
-
 public class Customer {
     private String name;
     private String surname;

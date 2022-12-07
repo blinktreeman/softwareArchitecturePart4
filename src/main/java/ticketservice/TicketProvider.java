@@ -28,6 +28,10 @@ public class TicketProvider {
     }
 
     public Ticket buyTicket(UUID customerId, String cardNumber) throws RuntimeException, WriterException {
+        // Предусловие
+        if (customerId == null || cardNumber == null) {
+            throw new RuntimeException("Invalid parameters");
+        }
         UUID orderId = UUID.randomUUID();
         database.addTicketOrder(orderId, customerId);
         double amount = database.getOrderById(orderId).getAmount();
@@ -44,6 +48,7 @@ public class TicketProvider {
 
             return ticket;
         }
+        // Постусловие
         else {
             throw new RuntimeException("Buying ticket... Payment failed");
         }
