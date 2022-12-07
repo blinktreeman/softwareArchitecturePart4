@@ -59,13 +59,11 @@ public class TicketProvider {
     }
 
     public boolean checkTicket(UUID ticketId) throws RuntimeException {
-        Map.Entry<UUID, Ticket> ticketEntry = database.getTicketMap()
-                .entrySet()
-                .stream()
-                .filter(k -> k.getKey().equals(ticketId))
-                .findAny()
-                .orElseThrow(() -> new RuntimeException("No valid tickets"));
-        return ticketEntry.getValue().isEnable();
+        try {
+            return database.getTicketMap().get(ticketId).isEnable();
+        } catch (Exception e) {
+            throw new RuntimeException("No valid tickets");
+        }
     }
 
     public void setTicketDisable(UUID ticketId) {

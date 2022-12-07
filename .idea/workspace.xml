@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f4b286d-c182-4e79-8a11-2c68a43cd775" name="Changes" comment="add readme" />
+    <list default="true" id="9f4b286d-c182-4e79-8a11-2c68a43cd775" name="Changes" comment="some correct" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +68,7 @@
       <updated>1670255195178</updated>
       <workItem from="1670255196779" duration="3411000" />
       <workItem from="1670308292357" duration="27687000" />
-      <workItem from="1670394162052" duration="13431000" />
+      <workItem from="1670394162052" duration="14134000" />
     </task>
     <task id="LOCAL-00001" summary="task done">
       <created>1670400986515</created>
@@ -98,7 +98,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670408784019</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="readme some correct">
+      <created>1670408875089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670408875089</updated>
+    </task>
+    <task id="LOCAL-00006" summary="some correct">
+      <created>1670409332119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670409332119</updated>
+    </task>
+    <task id="LOCAL-00007" summary="some correct">
+      <created>1670409420650</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670409420650</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +141,8 @@
     <MESSAGE value="some corrects add uml diagram" />
     <MESSAGE value="diagram done" />
     <MESSAGE value="add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add readme" />
+    <MESSAGE value="readme some correct" />
+    <MESSAGE value="some correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="some correct" />
   </component>
 </project>
